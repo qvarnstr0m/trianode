@@ -19,6 +19,8 @@
                 </div>
             </header>
             <nav>
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" class="logo">
+
                 <ul>
                     <li class="page_item"><a href="<?php echo home_url(); ?>">HOME</a>
                     <?php wp_list_pages( '&title_li=&exclude=22,20' ); ?>
@@ -26,4 +28,5 @@
             </nav>
             <div class="topimage">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/runnerbackground.jpg" id="running man" class="backgroundimage" style="width:100%">
+                
             </div>
