@@ -1,0 +1,150 @@
+/*
+CSS stylecheet for Webbutveckling1
+Martin Qvarnström 2022
+*/
+
+body {
+    margin-left: auto; /* to center website */
+    margin-right: auto; /* to center website */
+    width: 900px;
+    font-family: 'Merriweather', serif;
+    color: #0F3D3E;
+    display: flex; /* For use of sticky footer */
+    flex-direction: column; /* For use of sticky footer */
+
+}
+
+article a {
+  color: #0F3D3E;
+  text-decoration: underline;
+}
+
+article a:hover {
+  text-decoration: none;
+}
+
+.sidebar a {
+  color: #0F3D3E;
+  text-decoration: underline;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
+}
+
+footer a {
+  color: #F6F4E8;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+#wrapper {
+    height: 100%;
+    padding: auto;
+    background-color: #FFFFFF;
+}
+
+/* ul and li settings for horizontal menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F6F4E8;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #0F3D3E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a article {
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #E2DCC8;
+  }
+
+  ul {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  #logo {
+    height: 100px;
+    width: auto;
+    padding: 20px;
+  }
+
+  .sidebar {
+    width: 300;
+    float: left;
+    margin-bottom: 100px;
+  }
+
+  footer {
+    background-color: #0F3D3E;
+    float: left;
+    width: 900px;
+    position: static;
+    bottom: 0;
+    color: #F6F4E8;
+    text-align: left;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 90%;
+  }
+
+  footer p {
+    margin-left: 5px;
+  }
+
+
+  nav {
+    width: 900px;
+    float: left;
+  }
+
+  main {
+    float: left;
+  }
+
+  #content {
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin-bottom: 200px;
+  }
+
+  section {
+    border-bottom-style: solid;
+  }
+
+  #locations {
+    margin-left: 10px;
+    width: 290px;
+  }
+
+  #sidebarsections {
+    border-bottom-style: solid;
+    margin-bottom: 15px;
+  }
+
+  #cities {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
