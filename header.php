@@ -20,10 +20,9 @@
             </header>
             <nav>
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" class="logo">
-
                 <ul>
                     <li class="page_item"><a href="<?php echo home_url(); ?>">HOME</a>
-                    <?php wp_list_pages( '&title_li=&exclude=22,20' ); ?>
+                    <?php wp_list_pages( '&title_li=&exclude=22,20,65' ); ?>
                 </ul>
             </nav>
             <div class="topimage">

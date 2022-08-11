@@ -1,15 +1,15 @@
 <aside class="sidebar">
     <div id="mailinglist">
-        <form action="/mailing_list.php">
-        <label for="fname">Join our monthly mailing list:</label><br>
-          <input type="text" id="email" name="email" value="name@company.com">
+        <form action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist/" method="get">
+        <label for="fname">Join our monthly mailing list:<br></label>
+          <input type="email" name="email" value="name@company.com">
           <input type="submit" value="Submit">
         </form>
 
     </div>
     <div id="locations">
     <div id="sidebarsections">
-            <p>Trianode around the world:</p>
+            <p>Trianode global offices:</p>
         </div>
         <div id="sidebarsections">
             <img src="<?php bloginfo('stylesheet_directory'); ?>/images/frankfurt.jpg" id="cities" alt="Frankfurt">
