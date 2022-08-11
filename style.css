@@ -1,15 +1,15 @@
 /*
-CSS stylecheet for Webbutveckling1
+CSS stylecheet for Wordpress Trianode website
 Martin Qvarnström 2022
 */
 
+/* body and main content style below */
 body {
     margin-left: auto; /* to center website */
     margin-right: auto; /* to center website */
     width: 900px;
     font-family: 'Merriweather', serif;
     color: #0F3D3E;
-
 }
 
 article a {
@@ -21,29 +21,12 @@ article a:hover {
   text-decoration: none;
 }
 
-.sidebar a {
-  color: #0F3D3E;
-  text-decoration: underline;
-}
-
-.sidebar a:hover {
-  text-decoration: none;
-}
-
-footer a {
-  color: #F6F4E8;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  text-decoration: none;
-}
-
 #wrapper {
     height: 100%;
     padding: auto;
     background-color: #FFFFFF;
 }
+
 article li {
   margin-top: 25px;
 }
@@ -53,7 +36,11 @@ section li {
   margin-bottom: 25px;
 }
 
-/* ul and li settings for horizontal menu */
+main {
+  float: left;
+}
+
+/* ul and li settings for horizontal menu and logo below */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -92,21 +79,18 @@ nav ul {
     background-color: #ffffff;
   }
 
-
   .logo {
     float: left;
     height: 50px; 
     margin-right: 10px;
   }
 
-  .sidebar {
-    width: 300;
+  nav {
+    width: 900px;
     float: left;
-    margin-top: 15px;
-    margin-bottom: 100px;
-    margin-left: 10px;
   }
 
+  /* settings for footer below */
   footer {
     background-color: #0F3D3E;
     float: left;
@@ -125,14 +109,13 @@ nav ul {
     margin-left: 5px;
   }
 
-
-  nav {
-    width: 900px;
-    float: left;
+  footer a {
+    color: #F6F4E8;
+    text-decoration: underline;
   }
-
-  main {
-    float: left;
+  
+  footer a:hover {
+    text-decoration: none;
   }
 
   #content {
@@ -142,8 +125,27 @@ nav ul {
     margin-bottom: 200px;
   }
 
-  section {
+  /* line divide between news and article posts below */
+  #news {
     border-bottom-style: solid;
+  }
+
+  /* set width, margin and other of sidebar office locations and style of form mailing list below */
+  .sidebar a {
+    color: #0F3D3E;
+    text-decoration: underline;
+  }
+  
+  .sidebar a:hover {
+    text-decoration: none;
+  }
+
+  .sidebar {
+    width: 300;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    margin-left: 10px;
   }
 
   #locations {
@@ -162,10 +164,10 @@ nav ul {
   }
   
   #mailinglist {
-  font-size: 13px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   }
 
+  /* specify look of input forms below */
   input[type=button], input[type=submit], input[type=reset] {
     background-color: #E2DCC8;
     border-style: solid;
@@ -189,7 +191,7 @@ nav ul {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-
+  
   textarea {
     resize: none;
     background-color: #ffffff;

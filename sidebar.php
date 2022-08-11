@@ -1,11 +1,13 @@
 <aside class="sidebar">
+    <div id="socialmediabar">
+        <p>Follow us on social media:</p>
+    </div>
     <div id="mailinglist">
-        <form action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist/" method="get">
-        <label for="fname">Join our monthly mailing list:<br></label>
+    <p>Join our monthly mailing list:</p>
+        <form action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist/" method="get"> <!-- temp use of get method, post will be used later as this in an unsecure method -->
           <input type="email" name="email" value="name@company.com">
           <input type="submit" value="Submit">
         </form>
-
     </div>
     <div id="locations">
     <div id="sidebarsections">
