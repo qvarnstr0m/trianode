@@ -1,7 +1,4 @@
 <aside class="sidebar">
-    <div id="socialmediabar">
-        <p>Follow us on social media:</p>
-    </div>
     <div id="mailinglist">
     <p>Join our monthly mailing list:</p>
         <form action="<?php bloginfo('stylesheet_directory'); ?>/mailinglist/" method="get"> <!-- temp use of get method, post will be used later as this in an unsecure method -->
