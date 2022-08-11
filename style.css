@@ -152,12 +152,12 @@ nav ul {
     width: 290px;
   }
 
-  #sidebarsections {
+  .sidebarsections {
     border-bottom-style: solid;
     margin-bottom: 15px;
   }
 
-  #cities {
+  .cities {
     width: 290px;
     height: auto;
     border-radius: 5px;
