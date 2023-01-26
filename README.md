@@ -1,4 +1,6 @@
 # Trianode Investments
 
-This is a version of a Wordpress site for a fictive Investment firm, my last project for the course Web development 1.  
-The webapp was built using HTML, CSS, PHP and some Javascript.
+WordPress site for a fictive investment firm.  
+Built using HTML, CSS, PHP and Javascript as an assignment during a web development course.  
+A static version can be found here: https://trianode.000webhostapp.com/index.html.  
+The original dynamic version was developed against a local Apache server and WordPress.
